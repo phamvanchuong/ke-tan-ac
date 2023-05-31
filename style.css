@@ -1196,11 +1196,15 @@ p#subtitle {
 
 @keyframes sleep-cat-animation {
   0% {
+    -webkit-bottom: -110px;
     bottom: -110px;
+    -webkit-opacity: 0;
     opacity: 0;
   }
   100% {
+    -webkit-bottom: -80px;
     bottom: -80px;
+    -webkit-opacity: 1;
     opacity: 1;
   }
 }
