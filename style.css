@@ -1155,13 +1155,29 @@ p {
   text-align: center;
 }
 
-h1 {
+.good-night {
   margin: 20px 0 10px 0;
   font-size: 30px;
   position: relative;
 }
+
+.sweet-dream {
+  margin-top: 30px;
+}
+
 h1 > span {
   color: rgb(245, 82, 82);
+  font-size: larger;
+  animation: heart 1s infinite alternate-reverse;
+}
+
+@keyframes heart {
+  from {
+    font-size: large;
+  }
+  to {
+    font-size: smaller;
+  }
 }
 
 p {
