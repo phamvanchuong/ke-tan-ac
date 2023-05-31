@@ -1160,6 +1160,9 @@ h1 {
   font-size: 30px;
   position: relative;
 }
+h1 > span {
+  color: rgb(245, 82, 82);
+}
 
 p {
   font-size: 16px;
@@ -1175,4 +1178,29 @@ p#subtitle {
 
 .text-color {
   color: #7980c8;
+}
+
+.sleep-cat {
+  position: absolute;
+  width: 300px;
+  animation: sleep-cat-animation 3s 1 ease-in;
+  -webkit-animation: sleep-cat-animation 3s 1 ease-in;
+  left: calc(50% - 150px);
+  bottom: -80px;
+  z-index: 700;
+}
+
+.sleep-cat > img {
+  width: 300px;
+}
+
+@keyframes sleep-cat-animation {
+  0% {
+    bottom: -110px;
+    opacity: 0;
+  }
+  100% {
+    bottom: -80px;
+    opacity: 1;
+  }
 }
