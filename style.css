@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Sanchez");
+@import url("https://fonts.googleapis.com/css?family=Literata");
 
 * {
   padding: 0;
@@ -14,7 +14,7 @@
 }
 
 html {
-  font-family: "Sanchez", serif;
+  font-family: "Literata", serif;
 }
 
 .container-wrapper {
